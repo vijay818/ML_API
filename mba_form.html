@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ML API</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <h3>Cross-Sell Up-Sell Form</h3>
+
+
+<div>
+    <form action="/result" method="POST">
+        <label for="Frequent Purchases">FrequentPurchases</label>
+        <input type="text" id="FrequentPurchases" name="FrequentPurchases">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        
+    </form>
+    
+    <br>
+    <br>
+    {{ prediction_text }}
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction
+liquor,bottled beer,0.011082867,0.080528724,0.004677173,0.422018349,5.240594014,0.003784684,1.590831255
+"nan, liquor",bottled beer,0.011082867,0.080528724,0.004677173,0.422018349,5.240594014,0.003784684,1.590831255
+liquor,"bottled beer, nan",0.011082867,0.080528724,0.004677173,0.422018349,5.240594014,0.003784684,1.590831255
+"root vegetables, citrus fruit, other vegetables, whole milk",tropical fruit,0.005795628,0.104931368,0.003152008,0.543859649,5.183003536,0.002543865,1.962265848
+"tropical fruit, citrus fruit, other vegetables, whole milk",root vegetables,0.004982206,0.108998475,0.003152008,0.632653061,5.80423774,0.002608955,2.425504152
+"root vegetables, tropical fruit, other vegetables, whole milk",citrus fruit,0.00701576,0.082765633,0.003152008,0.449275362,5.428284015,0.002571344,1.665504509
+"root vegetables, citrus fruit, tropical fruit","other vegetables, whole milk",0.00569395,0.074834774,0.003152008,0.553571429,7.397248641,0.002725903,2.072370107
+"root vegetables, yogurt, tropical fruit","other vegetables, whole milk",0.008134215,0.074834774,0.003558719,0.4375,5.846212636,0.002949997,1.64473818
+"citrus fruit, root vegetables, other vegetables, nan, whole milk",tropical fruit,0.00569395,0.104931368,0.00305033,0.535714286,5.105377907,0.002452856,1.927840131
+"citrus fruit, other vegetables, nan, tropical fruit, whole milk",root vegetables,0.004880529,0.108998475,0.00305033,0.625,5.734025187,0.00251836,2.376004067
+"root vegetables, other vegetables, nan, tropical fruit, whole milk",citrus fruit,0.006914082,0.082765633,0.00305033,0.441176471,5.330430698,0.002478082,1.641366762
+"root vegetables, citrus fruit, other vegetables, whole milk","nan, tropical fruit",0.005795628,0.10482969,0.00305033,0.526315789,5.020674869,0.002442777,1.889803988
+"nan, root vegetables, citrus fruit, tropical fruit","other vegetables, whole milk",0.005592272,0.074834774,0.00305033,0.545454545,7.288784585,0.002631834,2.035363498
+"tropical fruit, citrus fruit, other vegetables, whole milk","nan, root vegetables",0.004982206,0.108896797,0.00305033,0.612244898,5.6222489,0.002507784,2.29810826
+"root vegetables, tropical fruit, other vegetables, whole milk","nan, citrus fruit",0.00701576,0.082663955,0.00305033,0.434782609,5.259639553,0.00247038,1.622979156
+"root vegetables, citrus fruit, tropical fruit","nan, other vegetables, whole milk",0.00569395,0.074733096,0.00305033,0.535714286,7.168367347,0.002624804,1.992882562
+"nan, root vegetables, yogurt, tropical fruit","other vegetables, whole milk",0.008032537,0.074834774,0.003457041,0.430379747,5.751066318,0.002855928,1.624178953
+"root vegetables, yogurt, tropical fruit","nan, other vegetables, whole milk",0.008134215,0.074733096,0.003457041,0.425,5.686904762,0.002849146,1.609159833

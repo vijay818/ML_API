@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ML API</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <h3>Churn Prediction Form</h3>
+
+
+<div>
+    <form action="/result" method="POST">
+        <label for="CurrentEquipmentDays">CurrentEquipmentDays</label>
+        <input type="text" id="CurrentEquipmentDays" name="CurrentEquipmentDays">
+        <br>
+        <br>
+        <label for="PercChangeMinutes">PercChangeMinutes</label>
+        <input type="text" id="PercChangeMinutes" name="PercChangeMinutes">
+        <br>
+        <br>
+        <label for="MonthlyMinutes">MonthlyMinutes</label>
+        <input type="text" id="MonthlyMinutes" name="MonthlyMinutes">
+        <br>
+        <br>
+        <label for="MonthlyRevenue">MonthlyRevenue</label>
+        <input type="text" id="MonthlyRevenue" name="MonthlyRevenue">
+        <br>
+        <br>
+        <label for="PercChangeRevenues">PercChangeRevenues</label>
+        <input type="text" id="PercChangeRevenues" name="PercChangeRevenues">
+        <br>
+        <br>
+        <label for="MonthsInService">MonthsInService</label>
+        <input type="text" id="MonthsInService" name="MonthsInService">
+        <br>
+        <br>
+        <label for="PeakCallsInOut">PeakCallsInOut</label>
+        <input type="text" id="PeakCallsInOut" name="PeakCallsInOut">
+        <br>
+        <br>
+        <label for="OffPeakCallsInOut">OffPeakCallsInOut</label>
+        <input type="text" id="OffPeakCallsInOut" name="OffPeakCallsInOut">
+        <br>
+        <br>
+        <label for="ReceivedCalls">ReceivedCalls</label>
+        <input type="text" id="ReceivedCalls" name="ReceivedCalls">
+        <br>
+        <br>
+        <label for="UnansweredCalls">UnansweredCalls</label>
+        <input type="text" id="UnansweredCalls" name="UnansweredCalls">
+        <br>
+        <br>
+        <br>
+        <input type="submit" name="churnpredresult__button" value="Submit">
+        
+    </form>
+    
+    <br>
+    <br>
+    {{ prediction_text }}
+</div>
+</body>
+</html>
