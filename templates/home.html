@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ML API</title>
+</head>
+<body>
+    <h3>SPIN Analytics POCs - Click below to get started</h3>
+
+
+<div>
+    <form id="package_form" action="/result" method="post">
+        <label for="CrossSell-UpSell POC">CrossSell-UpSell POC - </label>
+        <input type="submit" name="mba_button" value="Get Started">  
+        <br>
+        <br>
+        <br>
+        <label for="Customer Behavior POC">Customer Behavior POC - </label>
+        <input type="submit" name="custbehav_button" value="Get Started">
+        <br>
+        <br>
+        <br>
+        <label for="Customer Churn Prediction POC">Customer Churn Prediction POC - </label>
+        <input type="submit" name="custchurn_button" value="Get Started">
+        <br>
+        <br>
+        <br>
+        <label for="Time-Series Forecast POC">Time-Series Forecast POC - </label>
+        <input type="submit" name="tsforecast_button" value="Get Started">
+        <br>
+        <br>
+    </form>
+    
+    <br>
+    <br>
+    {{ prediction_text }}
+</div>
+</body>
+
+</html>
